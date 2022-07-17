@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* top players styles */
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.player img {
+    width: 56px;
+    height: 56px;
+}
+
+.player {
+    display: flex;
+    align-items: center;
+}
