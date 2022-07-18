@@ -132,6 +132,7 @@ nav {
     grid-template-columns: repeat(2, 1fr);
     row-gap: 26px;
     margin-top: 30px;
+    column-gap: 20px;
 }
 
 .blog {
@@ -316,6 +317,11 @@ nav {
         margin-left: 20px;
     }
 
+    .blog-title {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 25px;
+    }
 
 }
 
